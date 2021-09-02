@@ -3,6 +3,7 @@ import model.Jeep;
 import model.Bus;
 import model.Train;
 import model.Truck;
+import model.ElectricCar;
 public class VehicleNoises {
 	// add your vehicle class to the model package
 	// only push this file and the vehicle class you created
@@ -22,6 +23,9 @@ public class VehicleNoises {
 
 		Truck truck = new Truck();
 		System.out.println(truck.makeNoise());
+		
+		ElectricCar EC = new ElectricCar();
+		System.out.println(EC.makeNoise());
 	}
 
 }
