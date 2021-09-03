@@ -1,10 +1,11 @@
-import model.Car;
+import model.Car;	
 import model.Jeep;
 import model.MuscleCar;
 import model.Bus;
 import model.Train;
 import model.Truck;
 import model.ElectricCar;
+import model.ElectricTruck;
 import model.Motorcycle;
 
 public class VehicleNoises {
@@ -29,6 +30,9 @@ public class VehicleNoises {
 		
 		ElectricCar EC = new ElectricCar();
 		System.out.println(EC.makeNoise());
+		
+		ElectricTruck ET= new ElectricTruck();
+		System.out.println(ET.makeNoise());
 
 		Motorcycle motorcycle = new Motorcycle();
 		System.out.println(motorcycle.makeNoise());
