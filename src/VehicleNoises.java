@@ -27,6 +27,7 @@ public class VehicleNoises {
 		
 		ElectricCar EC = new ElectricCar();
 		System.out.println(EC.makeNoise());
+		
 		Motorcycle motorcycle = new Motorcycle();
 		System.out.println(motorcycle.makeNoise());
 	}
